@@ -4,7 +4,7 @@ lambda_client = boto3.client('lambda', region_name='us-east-1')
 
 response = lambda_client.create_function(
     Code={
-        'S3Bucket': 'nareshawsdev',
+        'S3Bucket': 'badriawsdev',
         'S3Key': 'lambda.zip',  # Use the name of your ZIP file
     },
     Description='Process image objects from Amazon S3.',
