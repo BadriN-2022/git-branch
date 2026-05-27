@@ -1,6 +1,6 @@
 import boto3
 
-lambda_client = boto3.client('lambda', region_name='us-east-1')
+lambda_client = boto3.client('lambda', region_name='us-west-1')
 
 response = lambda_client.create_function(
     Code={
